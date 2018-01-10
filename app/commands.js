@@ -99,6 +99,9 @@ const commands = {
   },
   'editor:break': focusedWindow => {
     focusedWindow && focusedWindow.rpc.emit('session break req');
+  },
+  'editor:altDot': focusedWindow => {
+    focusedWindow && focusedWindow.rpc.emit('session put alt dot');
   }
 };
 

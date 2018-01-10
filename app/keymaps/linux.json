@@ -46,5 +46,6 @@
   "editor:deleteEndLine": "ctrl+end",
   "editor:clearBuffer": "ctrl+shift+k",
   "editor:break": "ctrl+c",
+  "editor:altDot": "alt+.",
   "plugins:update": "ctrl+shift+u"
 }
